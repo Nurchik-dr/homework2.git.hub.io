@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homework2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="container-fluid px-0">
+        <header class="d-flex 
+            flex-column 
+            flex-md-row 
+            justify-content-between 
+            bg-dark 
+            text-secondary
+            p-3 
+            align-items-center ">
+            <a class="navbar-brand text-secondary text-decoration-none" href="#">Start Bootstrap</a>
+            <nav class="d-flex flex-wrap justify-content-center gap-3 ">
+                <a class="text-secondary text-decoration-none" href="#">About</a>
+                <a class="text-secondary text-decoration-none" href="#">Services</a>
+                <a class="text-secondary text-decoration-none" href="#">Contact</a>
+                <div class="dropdown">
+                    <a class="text-secondary dropdown-toggle text-decoration-none" href="#" role="button"
+                        data-bs-toggle="dropdown">Portfolio</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <a class="text-secondary dropdown-toggle text-decoration-none" href="#" role="button"
+                        data-bs-toggle="dropdown">Blog</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <a class="text-secondary dropdown-toggle text-decoration-none" href="#" role="button"
+                        data-bs-toggle="dropdown">Other Pages</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators text-white">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./images/carusel.jpg" class="d-block w-100 img-fluid" alt="Slide1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="text-white-50">Caption 1</h1>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./images/carusel.jpg" class="d-block w-100 img-fluid" alt="Slide2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="text-white-50">Caption 2</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/carusel.jpg" class="d-block w-100 img-fluid" alt="Slide3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="text-white-50">Caption 3</h1>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section class="container my-5">
+            <h1 class="fs-2 mb-4">Welcome to Modern Business</h1>
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <div class="card h-100">
+                        <div class="card-header d-flex align-items-center bg-body-secondary">
+                            <i class="bi bi-check-lg me-2 fs-4"></i>
+                            <span class="fw-bold fs-5">Bootstrap v5.3.7</span>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non
+                                cum id
+                                reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt.
+                                Reiciendis quia
+                                dolorum ducimus unde.</p>
+                            <a href="#" class="btn btn-outline-dark">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card h-100">
+                        <div class="card-header d-flex align-items-center bg-body-secondary">
+                            <i class="bi bi-gift me-2 fs-4"></i>
+                            <span class="fw-bold fs-5">Free & Open Source</span>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non
+                                cum id
+                                reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt.
+                                Reiciendis quia
+                                dolorum ducimus unde.</p>
+                            <a href="#" class="btn btn-outline-dark">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card h-100">
+                        <div class="card-header d-flex align-items-center bg-body-secondary">
+                            <i class="bi bi-compass me-2 fs-4"></i>
+                            <span class="fw-bold fs-5">Easy to Use</span>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non
+                                cum id
+                                reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt.
+                                Reiciendis quia
+                                dolorum ducimus unde.</p>
+                            <a href="#" class="btn btn-outline-dark">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container my-5">
+            <h1 class="fs-3 mt-3">Portfolio Heading</h1>
+            <hr class="p-1">
+
+            <div class="row g-2">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <img src="./images/bg.jpg" class="img-fluid" alt="gallery">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <img src="./images/bg.jpg" class="img-fluid" alt="gallery">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <img src="./images/bg.jpg" class="img-fluid" alt="gallery">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <img src="./images/bg.jpg" class="img-fluid" alt="gallery">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <img src="./images/bg.jpg" class="img-fluid" alt="gallery">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <img src="./images/bg.jpg" class="img-fluid" alt="gallery">
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2 class="fs-3">Modern Business Features</h2>
+            <hr class="p-1">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-muted">The Modern Business template includes:</h5>
+                    <ul>
+                        <li><b>Bootstrap v3.2.0</b></li>
+                        <li>jQuery v1.11.0</li>
+                        <li>Font Awesome v4.1.0</li>
+                        <li>Working PHP contact form with validation</li>
+                        <li>Unstyled page elements for easy customization</li>
+                        <li>17 HTML pages</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id
+                        reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/bg.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </section>
+        <footer class="container my-5">
+            <hr class="p-1">
+            <div class="card">
+                <div class="card-body d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+                    <p class="card-text m-0">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum necessitatibus doloremque animi?
+                        Magni rerum asperiores cum illo, enim placeat recusandae aspernatur dolore itaque eaque? Non
+                        commodi repudiandae laborum quia cupiditate.
+                    </p>
+                    <a href="#" class="btn btn-outline-dark text-nowrap px-4 py-2">
+                        Call to Action
+                    </a>
+                </div>
+            </div>
+            <hr class="p-3">
+            <span>Copyright @ Your Website 2014</span>
+        </footer>
+    </main>
+</body>
+
+</html>
